@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(ut -cl | tr -d " \n")
