@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ut -cl | tr -d " \n")
+cut -c 1 | paste -s -d ''
